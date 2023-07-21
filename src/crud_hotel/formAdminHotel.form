@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="309" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="553" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="buttonSimpan" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonUpdate" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="buttonReset" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonHapus" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="buttonLogout" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="tipeKamar" alignment="0" pref="164" max="32767" attributes="0"/>
+                              <Component id="noKamar" alignment="0" max="32767" attributes="0"/>
+                              <Component id="nama" alignment="0" max="32767" attributes="0"/>
+                              <Component id="noPelanggan" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tglCheckin" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="tglCheckout" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="583" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="181" max="-2" attributes="0"/>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="buttonSimpan" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonHapus" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="buttonReset" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="buttonUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonLogout" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="noPelanggan" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nama" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="noKamar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tipeKamar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglCheckin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tglCheckout" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="130" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="nama">
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonHapus">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hapus"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonHapusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="noKamar">
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonUpdate">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="cc" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonUpdateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="tipeKamar">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Standard Room"/>
+            <StringItem index="1" value="Superior Room"/>
+            <StringItem index="2" value="Deluxe Room"/>
+            <StringItem index="3" value="Suite Room"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonReset">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="33" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="tglCheckin">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="365">
+            <StringItem index="0" value="01/01/23"/>
+            <StringItem index="1" value="02/01/23"/>
+            <StringItem index="2" value="03/01/23"/>
+            <StringItem index="3" value="04/01/23"/>
+            <StringItem index="4" value="05/01/23"/>
+            <StringItem index="5" value="06/01/23"/>
+            <StringItem index="6" value="07/01/23"/>
+            <StringItem index="7" value="08/01/23"/>
+            <StringItem index="8" value="09/01/23"/>
+            <StringItem index="9" value="10/01/23"/>
+            <StringItem index="10" value="11/01/23"/>
+            <StringItem index="11" value="12/01/23"/>
+            <StringItem index="12" value="13/01/23"/>
+            <StringItem index="13" value="14/01/23"/>
+            <StringItem index="14" value="15/01/23"/>
+            <StringItem index="15" value="16/01/23"/>
+            <StringItem index="16" value="17/01/23"/>
+            <StringItem index="17" value="18/01/23"/>
+            <StringItem index="18" value="19/01/23"/>
+            <StringItem index="19" value="20/01/23"/>
+            <StringItem index="20" value="21/01/23"/>
+            <StringItem index="21" value="22/01/23"/>
+            <StringItem index="22" value="23/01/23"/>
+            <StringItem index="23" value="24/01/23"/>
+            <StringItem index="24" value="25/01/23"/>
+            <StringItem index="25" value="26/01/23"/>
+            <StringItem index="26" value="27/01/23"/>
+            <StringItem index="27" value="28/01/23"/>
+            <StringItem index="28" value="29/01/23"/>
+            <StringItem index="29" value="30/01/23"/>
+            <StringItem index="30" value="31/01/23"/>
+            <StringItem index="31" value="01/02/23"/>
+            <StringItem index="32" value="02/02/23"/>
+            <StringItem index="33" value="03/02/23"/>
+            <StringItem index="34" value="04/02/23"/>
+            <StringItem index="35" value="05/02/23"/>
+            <StringItem index="36" value="06/02/23"/>
+            <StringItem index="37" value="07/02/23"/>
+            <StringItem index="38" value="08/02/23"/>
+            <StringItem index="39" value="09/02/23"/>
+            <StringItem index="40" value="10/02/23"/>
+            <StringItem index="41" value="11/02/23"/>
+            <StringItem index="42" value="12/02/23"/>
+            <StringItem index="43" value="13/02/23"/>
+            <StringItem index="44" value="14/02/23"/>
+            <StringItem index="45" value="15/02/23"/>
+            <StringItem index="46" value="16/02/23"/>
+            <StringItem index="47" value="17/02/23"/>
+            <StringItem index="48" value="18/02/23"/>
+            <StringItem index="49" value="19/02/23"/>
+            <StringItem index="50" value="20/02/23"/>
+            <StringItem index="51" value="21/02/23"/>
+            <StringItem index="52" value="22/02/23"/>
+            <StringItem index="53" value="23/02/23"/>
+            <StringItem index="54" value="24/02/23"/>
+            <StringItem index="55" value="25/02/23"/>
+            <StringItem index="56" value="26/02/23"/>
+            <StringItem index="57" value="27/02/23"/>
+            <StringItem index="58" value="28/02/23"/>
+            <StringItem index="59" value="01/03/23"/>
+            <StringItem index="60" value="02/03/23"/>
+            <StringItem index="61" value="03/03/23"/>
+            <StringItem index="62" value="04/03/23"/>
+            <StringItem index="63" value="05/03/23"/>
+            <StringItem index="64" value="06/03/23"/>
+            <StringItem index="65" value="07/03/23"/>
+            <StringItem index="66" value="08/03/23"/>
+            <StringItem index="67" value="09/03/23"/>
+            <StringItem index="68" value="10/03/23"/>
+            <StringItem index="69" value="11/03/23"/>
+            <StringItem index="70" value="12/03/23"/>
+            <StringItem index="71" value="13/03/23"/>
+            <StringItem index="72" value="14/03/23"/>
+            <StringItem index="73" value="15/03/23"/>
+            <StringItem index="74" value="16/03/23"/>
+            <StringItem index="75" value="17/03/23"/>
+            <StringItem index="76" value="18/03/23"/>
+            <StringItem index="77" value="19/03/23"/>
+            <StringItem index="78" value="20/03/23"/>
+            <StringItem index="79" value="21/03/23"/>
+            <StringItem index="80" value="22/03/23"/>
+            <StringItem index="81" value="23/03/23"/>
+            <StringItem index="82" value="24/03/23"/>
+            <StringItem index="83" value="25/03/23"/>
+            <StringItem index="84" value="26/03/23"/>
+            <StringItem index="85" value="27/03/23"/>
+            <StringItem index="86" value="28/03/23"/>
+            <StringItem index="87" value="29/03/23"/>
+            <StringItem index="88" value="30/03/23"/>
+            <StringItem index="89" value="31/03/23"/>
+            <StringItem index="90" value="01/04/23"/>
+            <StringItem index="91" value="02/04/23"/>
+            <StringItem index="92" value="03/04/23"/>
+            <StringItem index="93" value="04/04/23"/>
+            <StringItem index="94" value="05/04/23"/>
+            <StringItem index="95" value="06/04/23"/>
+            <StringItem index="96" value="07/04/23"/>
+            <StringItem index="97" value="08/04/23"/>
+            <StringItem index="98" value="09/04/23"/>
+            <StringItem index="99" value="10/04/23"/>
+            <StringItem index="100" value="11/04/23"/>
+            <StringItem index="101" value="12/04/23"/>
+            <StringItem index="102" value="13/04/23"/>
+            <StringItem index="103" value="14/04/23"/>
+            <StringItem index="104" value="15/04/23"/>
+            <StringItem index="105" value="16/04/23"/>
+            <StringItem index="106" value="17/04/23"/>
+            <StringItem index="107" value="18/04/23"/>
+            <StringItem index="108" value="19/04/23"/>
+            <StringItem index="109" value="20/04/23"/>
+            <StringItem index="110" value="21/04/23"/>
+            <StringItem index="111" value="22/04/23"/>
+            <StringItem index="112" value="23/04/23"/>
+            <StringItem index="113" value="24/04/23"/>
+            <StringItem index="114" value="25/04/23"/>
+            <StringItem index="115" value="26/04/23"/>
+            <StringItem index="116" value="27/04/23"/>
+            <StringItem index="117" value="28/04/23"/>
+            <StringItem index="118" value="29/04/23"/>
+            <StringItem index="119" value="30/04/23"/>
+            <StringItem index="120" value="01/05/23"/>
+            <StringItem index="121" value="02/05/23"/>
+            <StringItem index="122" value="03/05/23"/>
+            <StringItem index="123" value="04/05/23"/>
+            <StringItem index="124" value="05/05/23"/>
+            <StringItem index="125" value="06/05/23"/>
+            <StringItem index="126" value="07/05/23"/>
+            <StringItem index="127" value="08/05/23"/>
+            <StringItem index="128" value="09/05/23"/>
+            <StringItem index="129" value="10/05/23"/>
+            <StringItem index="130" value="11/05/23"/>
+            <StringItem index="131" value="12/05/23"/>
+            <StringItem index="132" value="13/05/23"/>
+            <StringItem index="133" value="14/05/23"/>
+            <StringItem index="134" value="15/05/23"/>
+            <StringItem index="135" value="16/05/23"/>
+            <StringItem index="136" value="17/05/23"/>
+            <StringItem index="137" value="18/05/23"/>
+            <StringItem index="138" value="19/05/23"/>
+            <StringItem index="139" value="20/05/23"/>
+            <StringItem index="140" value="21/05/23"/>
+            <StringItem index="141" value="22/05/23"/>
+            <StringItem index="142" value="23/05/23"/>
+            <StringItem index="143" value="24/05/23"/>
+            <StringItem index="144" value="25/05/23"/>
+            <StringItem index="145" value="26/05/23"/>
+            <StringItem index="146" value="27/05/23"/>
+            <StringItem index="147" value="28/05/23"/>
+            <StringItem index="148" value="29/05/23"/>
+            <StringItem index="149" value="30/05/23"/>
+            <StringItem index="150" value="31/05/23"/>
+            <StringItem index="151" value="01/06/23"/>
+            <StringItem index="152" value="02/06/23"/>
+            <StringItem index="153" value="03/06/23"/>
+            <StringItem index="154" value="04/06/23"/>
+            <StringItem index="155" value="05/06/23"/>
+            <StringItem index="156" value="06/06/23"/>
+            <StringItem index="157" value="07/06/23"/>
+            <StringItem index="158" value="08/06/23"/>
+            <StringItem index="159" value="09/06/23"/>
+            <StringItem index="160" value="10/06/23"/>
+            <StringItem index="161" value="11/06/23"/>
+            <StringItem index="162" value="12/06/23"/>
+            <StringItem index="163" value="13/06/23"/>
+            <StringItem index="164" value="14/06/23"/>
+            <StringItem index="165" value="15/06/23"/>
+            <StringItem index="166" value="16/06/23"/>
+            <StringItem index="167" value="17/06/23"/>
+            <StringItem index="168" value="18/06/23"/>
+            <StringItem index="169" value="19/06/23"/>
+            <StringItem index="170" value="20/06/23"/>
+            <StringItem index="171" value="21/06/23"/>
+            <StringItem index="172" value="22/06/23"/>
+            <StringItem index="173" value="23/06/23"/>
+            <StringItem index="174" value="24/06/23"/>
+            <StringItem index="175" value="25/06/23"/>
+            <StringItem index="176" value="26/06/23"/>
+            <StringItem index="177" value="27/06/23"/>
+            <StringItem index="178" value="28/06/23"/>
+            <StringItem index="179" value="29/06/23"/>
+            <StringItem index="180" value="30/06/23"/>
+            <StringItem index="181" value="01/07/23"/>
+            <StringItem index="182" value="02/07/23"/>
+            <StringItem index="183" value="03/07/23"/>
+            <StringItem index="184" value="04/07/23"/>
+            <StringItem index="185" value="05/07/23"/>
+            <StringItem index="186" value="06/07/23"/>
+            <StringItem index="187" value="07/07/23"/>
+            <StringItem index="188" value="08/07/23"/>
+            <StringItem index="189" value="09/07/23"/>
+            <StringItem index="190" value="10/07/23"/>
+            <StringItem index="191" value="11/07/23"/>
+            <StringItem index="192" value="12/07/23"/>
+            <StringItem index="193" value="13/07/23"/>
+            <StringItem index="194" value="14/07/23"/>
+            <StringItem index="195" value="15/07/23"/>
+            <StringItem index="196" value="16/07/23"/>
+            <StringItem index="197" value="17/07/23"/>
+            <StringItem index="198" value="18/07/23"/>
+            <StringItem index="199" value="19/07/23"/>
+            <StringItem index="200" value="20/07/23"/>
+            <StringItem index="201" value="21/07/23"/>
+            <StringItem index="202" value="22/07/23"/>
+            <StringItem index="203" value="23/07/23"/>
+            <StringItem index="204" value="24/07/23"/>
+            <StringItem index="205" value="25/07/23"/>
+            <StringItem index="206" value="26/07/23"/>
+            <StringItem index="207" value="27/07/23"/>
+            <StringItem index="208" value="28/07/23"/>
+            <StringItem index="209" value="29/07/23"/>
+            <StringItem index="210" value="30/07/23"/>
+            <StringItem index="211" value="31/07/23"/>
+            <StringItem index="212" value="01/08/23"/>
+            <StringItem index="213" value="02/08/23"/>
+            <StringItem index="214" value="03/08/23"/>
+            <StringItem index="215" value="04/08/23"/>
+            <StringItem index="216" value="05/08/23"/>
+            <StringItem index="217" value="06/08/23"/>
+            <StringItem index="218" value="07/08/23"/>
+            <StringItem index="219" value="08/08/23"/>
+            <StringItem index="220" value="09/08/23"/>
+            <StringItem index="221" value="10/08/23"/>
+            <StringItem index="222" value="11/08/23"/>
+            <StringItem index="223" value="12/08/23"/>
+            <StringItem index="224" value="13/08/23"/>
+            <StringItem index="225" value="14/08/23"/>
+            <StringItem index="226" value="15/08/23"/>
+            <StringItem index="227" value="16/08/23"/>
+            <StringItem index="228" value="17/08/23"/>
+            <StringItem index="229" value="18/08/23"/>
+            <StringItem index="230" value="19/08/23"/>
+            <StringItem index="231" value="20/08/23"/>
+            <StringItem index="232" value="21/08/23"/>
+            <StringItem index="233" value="22/08/23"/>
+            <StringItem index="234" value="23/08/23"/>
+            <StringItem index="235" value="24/08/23"/>
+            <StringItem index="236" value="25/08/23"/>
+            <StringItem index="237" value="26/08/23"/>
+            <StringItem index="238" value="27/08/23"/>
+            <StringItem index="239" value="28/08/23"/>
+            <StringItem index="240" value="29/08/23"/>
+            <StringItem index="241" value="30/08/23"/>
+            <StringItem index="242" value="31/08/23"/>
+            <StringItem index="243" value="01/09/23"/>
+            <StringItem index="244" value="02/09/23"/>
+            <StringItem index="245" value="03/09/23"/>
+            <StringItem index="246" value="04/09/23"/>
+            <StringItem index="247" value="05/09/23"/>
+            <StringItem index="248" value="06/09/23"/>
+            <StringItem index="249" value="07/09/23"/>
+            <StringItem index="250" value="08/09/23"/>
+            <StringItem index="251" value="09/09/23"/>
+            <StringItem index="252" value="10/09/23"/>
+            <StringItem index="253" value="11/09/23"/>
+            <StringItem index="254" value="12/09/23"/>
+            <StringItem index="255" value="13/09/23"/>
+            <StringItem index="256" value="14/09/23"/>
+            <StringItem index="257" value="15/09/23"/>
+            <StringItem index="258" value="16/09/23"/>
+            <StringItem index="259" value="17/09/23"/>
+            <StringItem index="260" value="18/09/23"/>
+            <StringItem index="261" value="19/09/23"/>
+            <StringItem index="262" value="20/09/23"/>
+            <StringItem index="263" value="21/09/23"/>
+            <StringItem index="264" value="22/09/23"/>
+            <StringItem index="265" value="23/09/23"/>
+            <StringItem index="266" value="24/09/23"/>
+            <StringItem index="267" value="25/09/23"/>
+            <StringItem index="268" value="26/09/23"/>
+            <StringItem index="269" value="27/09/23"/>
+            <StringItem index="270" value="28/09/23"/>
+            <StringItem index="271" value="29/09/23"/>
+            <StringItem index="272" value="30/09/23"/>
+            <StringItem index="273" value="01/10/23"/>
+            <StringItem index="274" value="02/10/23"/>
+            <StringItem index="275" value="03/10/23"/>
+            <StringItem index="276" value="04/10/23"/>
+            <StringItem index="277" value="05/10/23"/>
+            <StringItem index="278" value="06/10/23"/>
+            <StringItem index="279" value="07/10/23"/>
+            <StringItem index="280" value="08/10/23"/>
+            <StringItem index="281" value="09/10/23"/>
+            <StringItem index="282" value="10/10/23"/>
+            <StringItem index="283" value="11/10/23"/>
+            <StringItem index="284" value="12/10/23"/>
+            <StringItem index="285" value="13/10/23"/>
+            <StringItem index="286" value="14/10/23"/>
+            <StringItem index="287" value="15/10/23"/>
+            <StringItem index="288" value="16/10/23"/>
+            <StringItem index="289" value="17/10/23"/>
+            <StringItem index="290" value="18/10/23"/>
+            <StringItem index="291" value="19/10/23"/>
+            <StringItem index="292" value="20/10/23"/>
+            <StringItem index="293" value="21/10/23"/>
+            <StringItem index="294" value="22/10/23"/>
+            <StringItem index="295" value="23/10/23"/>
+            <StringItem index="296" value="24/10/23"/>
+            <StringItem index="297" value="25/10/23"/>
+            <StringItem index="298" value="26/10/23"/>
+            <StringItem index="299" value="27/10/23"/>
+            <StringItem index="300" value="28/10/23"/>
+            <StringItem index="301" value="29/10/23"/>
+            <StringItem index="302" value="30/10/23"/>
+            <StringItem index="303" value="31/10/23"/>
+            <StringItem index="304" value="01/11/23"/>
+            <StringItem index="305" value="02/11/23"/>
+            <StringItem index="306" value="03/11/23"/>
+            <StringItem index="307" value="04/11/23"/>
+            <StringItem index="308" value="05/11/23"/>
+            <StringItem index="309" value="06/11/23"/>
+            <StringItem index="310" value="07/11/23"/>
+            <StringItem index="311" value="08/11/23"/>
+            <StringItem index="312" value="09/11/23"/>
+            <StringItem index="313" value="10/11/23"/>
+            <StringItem index="314" value="11/11/23"/>
+            <StringItem index="315" value="12/11/23"/>
+            <StringItem index="316" value="13/11/23"/>
+            <StringItem index="317" value="14/11/23"/>
+            <StringItem index="318" value="15/11/23"/>
+            <StringItem index="319" value="16/11/23"/>
+            <StringItem index="320" value="17/11/23"/>
+            <StringItem index="321" value="18/11/23"/>
+            <StringItem index="322" value="19/11/23"/>
+            <StringItem index="323" value="20/11/23"/>
+            <StringItem index="324" value="21/11/23"/>
+            <StringItem index="325" value="22/11/23"/>
+            <StringItem index="326" value="23/11/23"/>
+            <StringItem index="327" value="24/11/23"/>
+            <StringItem index="328" value="25/11/23"/>
+            <StringItem index="329" value="26/11/23"/>
+            <StringItem index="330" value="27/11/23"/>
+            <StringItem index="331" value="28/11/23"/>
+            <StringItem index="332" value="29/11/23"/>
+            <StringItem index="333" value="30/11/23"/>
+            <StringItem index="334" value="01/12/23"/>
+            <StringItem index="335" value="02/12/23"/>
+            <StringItem index="336" value="03/12/23"/>
+            <StringItem index="337" value="04/12/23"/>
+            <StringItem index="338" value="05/12/23"/>
+            <StringItem index="339" value="06/12/23"/>
+            <StringItem index="340" value="07/12/23"/>
+            <StringItem index="341" value="08/12/23"/>
+            <StringItem index="342" value="09/12/23"/>
+            <StringItem index="343" value="10/12/23"/>
+            <StringItem index="344" value="11/12/23"/>
+            <StringItem index="345" value="12/12/23"/>
+            <StringItem index="346" value="13/12/23"/>
+            <StringItem index="347" value="14/12/23"/>
+            <StringItem index="348" value="15/12/23"/>
+            <StringItem index="349" value="16/12/23"/>
+            <StringItem index="350" value="17/12/23"/>
+            <StringItem index="351" value="18/12/23"/>
+            <StringItem index="352" value="19/12/23"/>
+            <StringItem index="353" value="20/12/23"/>
+            <StringItem index="354" value="21/12/23"/>
+            <StringItem index="355" value="22/12/23"/>
+            <StringItem index="356" value="23/12/23"/>
+            <StringItem index="357" value="24/12/23"/>
+            <StringItem index="358" value="25/12/23"/>
+            <StringItem index="359" value="26/12/23"/>
+            <StringItem index="360" value="27/12/23"/>
+            <StringItem index="361" value="28/12/23"/>
+            <StringItem index="362" value="29/12/23"/>
+            <StringItem index="363" value="30/12/23"/>
+            <StringItem index="364" value="31/12/23"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tglCheckinActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Form Admin"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="No.Pelanggan :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nama              :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="No.Kamar        :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tipe Kamar      :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tgl Checkout   :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Tgl Checkin     :"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tableHotel">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="6" rowCount="6">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                <Column editable="true" title="Title 5" type="java.lang.Object"/>
+                <Column editable="true" title="Title 6" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tableHotelMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="tglCheckout">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="365">
+            <StringItem index="0" value="01/01/23"/>
+            <StringItem index="1" value="02/01/23"/>
+            <StringItem index="2" value="03/01/23"/>
+            <StringItem index="3" value="04/01/23"/>
+            <StringItem index="4" value="05/01/23"/>
+            <StringItem index="5" value="06/01/23"/>
+            <StringItem index="6" value="07/01/23"/>
+            <StringItem index="7" value="08/01/23"/>
+            <StringItem index="8" value="09/01/23"/>
+            <StringItem index="9" value="10/01/23"/>
+            <StringItem index="10" value="11/01/23"/>
+            <StringItem index="11" value="12/01/23"/>
+            <StringItem index="12" value="13/01/23"/>
+            <StringItem index="13" value="14/01/23"/>
+            <StringItem index="14" value="15/01/23"/>
+            <StringItem index="15" value="16/01/23"/>
+            <StringItem index="16" value="17/01/23"/>
+            <StringItem index="17" value="18/01/23"/>
+            <StringItem index="18" value="19/01/23"/>
+            <StringItem index="19" value="20/01/23"/>
+            <StringItem index="20" value="21/01/23"/>
+            <StringItem index="21" value="22/01/23"/>
+            <StringItem index="22" value="23/01/23"/>
+            <StringItem index="23" value="24/01/23"/>
+            <StringItem index="24" value="25/01/23"/>
+            <StringItem index="25" value="26/01/23"/>
+            <StringItem index="26" value="27/01/23"/>
+            <StringItem index="27" value="28/01/23"/>
+            <StringItem index="28" value="29/01/23"/>
+            <StringItem index="29" value="30/01/23"/>
+            <StringItem index="30" value="31/01/23"/>
+            <StringItem index="31" value="01/02/23"/>
+            <StringItem index="32" value="02/02/23"/>
+            <StringItem index="33" value="03/02/23"/>
+            <StringItem index="34" value="04/02/23"/>
+            <StringItem index="35" value="05/02/23"/>
+            <StringItem index="36" value="06/02/23"/>
+            <StringItem index="37" value="07/02/23"/>
+            <StringItem index="38" value="08/02/23"/>
+            <StringItem index="39" value="09/02/23"/>
+            <StringItem index="40" value="10/02/23"/>
+            <StringItem index="41" value="11/02/23"/>
+            <StringItem index="42" value="12/02/23"/>
+            <StringItem index="43" value="13/02/23"/>
+            <StringItem index="44" value="14/02/23"/>
+            <StringItem index="45" value="15/02/23"/>
+            <StringItem index="46" value="16/02/23"/>
+            <StringItem index="47" value="17/02/23"/>
+            <StringItem index="48" value="18/02/23"/>
+            <StringItem index="49" value="19/02/23"/>
+            <StringItem index="50" value="20/02/23"/>
+            <StringItem index="51" value="21/02/23"/>
+            <StringItem index="52" value="22/02/23"/>
+            <StringItem index="53" value="23/02/23"/>
+            <StringItem index="54" value="24/02/23"/>
+            <StringItem index="55" value="25/02/23"/>
+            <StringItem index="56" value="26/02/23"/>
+            <StringItem index="57" value="27/02/23"/>
+            <StringItem index="58" value="28/02/23"/>
+            <StringItem index="59" value="01/03/23"/>
+            <StringItem index="60" value="02/03/23"/>
+            <StringItem index="61" value="03/03/23"/>
+            <StringItem index="62" value="04/03/23"/>
+            <StringItem index="63" value="05/03/23"/>
+            <StringItem index="64" value="06/03/23"/>
+            <StringItem index="65" value="07/03/23"/>
+            <StringItem index="66" value="08/03/23"/>
+            <StringItem index="67" value="09/03/23"/>
+            <StringItem index="68" value="10/03/23"/>
+            <StringItem index="69" value="11/03/23"/>
+            <StringItem index="70" value="12/03/23"/>
+            <StringItem index="71" value="13/03/23"/>
+            <StringItem index="72" value="14/03/23"/>
+            <StringItem index="73" value="15/03/23"/>
+            <StringItem index="74" value="16/03/23"/>
+            <StringItem index="75" value="17/03/23"/>
+            <StringItem index="76" value="18/03/23"/>
+            <StringItem index="77" value="19/03/23"/>
+            <StringItem index="78" value="20/03/23"/>
+            <StringItem index="79" value="21/03/23"/>
+            <StringItem index="80" value="22/03/23"/>
+            <StringItem index="81" value="23/03/23"/>
+            <StringItem index="82" value="24/03/23"/>
+            <StringItem index="83" value="25/03/23"/>
+            <StringItem index="84" value="26/03/23"/>
+            <StringItem index="85" value="27/03/23"/>
+            <StringItem index="86" value="28/03/23"/>
+            <StringItem index="87" value="29/03/23"/>
+            <StringItem index="88" value="30/03/23"/>
+            <StringItem index="89" value="31/03/23"/>
+            <StringItem index="90" value="01/04/23"/>
+            <StringItem index="91" value="02/04/23"/>
+            <StringItem index="92" value="03/04/23"/>
+            <StringItem index="93" value="04/04/23"/>
+            <StringItem index="94" value="05/04/23"/>
+            <StringItem index="95" value="06/04/23"/>
+            <StringItem index="96" value="07/04/23"/>
+            <StringItem index="97" value="08/04/23"/>
+            <StringItem index="98" value="09/04/23"/>
+            <StringItem index="99" value="10/04/23"/>
+            <StringItem index="100" value="11/04/23"/>
+            <StringItem index="101" value="12/04/23"/>
+            <StringItem index="102" value="13/04/23"/>
+            <StringItem index="103" value="14/04/23"/>
+            <StringItem index="104" value="15/04/23"/>
+            <StringItem index="105" value="16/04/23"/>
+            <StringItem index="106" value="17/04/23"/>
+            <StringItem index="107" value="18/04/23"/>
+            <StringItem index="108" value="19/04/23"/>
+            <StringItem index="109" value="20/04/23"/>
+            <StringItem index="110" value="21/04/23"/>
+            <StringItem index="111" value="22/04/23"/>
+            <StringItem index="112" value="23/04/23"/>
+            <StringItem index="113" value="24/04/23"/>
+            <StringItem index="114" value="25/04/23"/>
+            <StringItem index="115" value="26/04/23"/>
+            <StringItem index="116" value="27/04/23"/>
+            <StringItem index="117" value="28/04/23"/>
+            <StringItem index="118" value="29/04/23"/>
+            <StringItem index="119" value="30/04/23"/>
+            <StringItem index="120" value="01/05/23"/>
+            <StringItem index="121" value="02/05/23"/>
+            <StringItem index="122" value="03/05/23"/>
+            <StringItem index="123" value="04/05/23"/>
+            <StringItem index="124" value="05/05/23"/>
+            <StringItem index="125" value="06/05/23"/>
+            <StringItem index="126" value="07/05/23"/>
+            <StringItem index="127" value="08/05/23"/>
+            <StringItem index="128" value="09/05/23"/>
+            <StringItem index="129" value="10/05/23"/>
+            <StringItem index="130" value="11/05/23"/>
+            <StringItem index="131" value="12/05/23"/>
+            <StringItem index="132" value="13/05/23"/>
+            <StringItem index="133" value="14/05/23"/>
+            <StringItem index="134" value="15/05/23"/>
+            <StringItem index="135" value="16/05/23"/>
+            <StringItem index="136" value="17/05/23"/>
+            <StringItem index="137" value="18/05/23"/>
+            <StringItem index="138" value="19/05/23"/>
+            <StringItem index="139" value="20/05/23"/>
+            <StringItem index="140" value="21/05/23"/>
+            <StringItem index="141" value="22/05/23"/>
+            <StringItem index="142" value="23/05/23"/>
+            <StringItem index="143" value="24/05/23"/>
+            <StringItem index="144" value="25/05/23"/>
+            <StringItem index="145" value="26/05/23"/>
+            <StringItem index="146" value="27/05/23"/>
+            <StringItem index="147" value="28/05/23"/>
+            <StringItem index="148" value="29/05/23"/>
+            <StringItem index="149" value="30/05/23"/>
+            <StringItem index="150" value="31/05/23"/>
+            <StringItem index="151" value="01/06/23"/>
+            <StringItem index="152" value="02/06/23"/>
+            <StringItem index="153" value="03/06/23"/>
+            <StringItem index="154" value="04/06/23"/>
+            <StringItem index="155" value="05/06/23"/>
+            <StringItem index="156" value="06/06/23"/>
+            <StringItem index="157" value="07/06/23"/>
+            <StringItem index="158" value="08/06/23"/>
+            <StringItem index="159" value="09/06/23"/>
+            <StringItem index="160" value="10/06/23"/>
+            <StringItem index="161" value="11/06/23"/>
+            <StringItem index="162" value="12/06/23"/>
+            <StringItem index="163" value="13/06/23"/>
+            <StringItem index="164" value="14/06/23"/>
+            <StringItem index="165" value="15/06/23"/>
+            <StringItem index="166" value="16/06/23"/>
+            <StringItem index="167" value="17/06/23"/>
+            <StringItem index="168" value="18/06/23"/>
+            <StringItem index="169" value="19/06/23"/>
+            <StringItem index="170" value="20/06/23"/>
+            <StringItem index="171" value="21/06/23"/>
+            <StringItem index="172" value="22/06/23"/>
+            <StringItem index="173" value="23/06/23"/>
+            <StringItem index="174" value="24/06/23"/>
+            <StringItem index="175" value="25/06/23"/>
+            <StringItem index="176" value="26/06/23"/>
+            <StringItem index="177" value="27/06/23"/>
+            <StringItem index="178" value="28/06/23"/>
+            <StringItem index="179" value="29/06/23"/>
+            <StringItem index="180" value="30/06/23"/>
+            <StringItem index="181" value="01/07/23"/>
+            <StringItem index="182" value="02/07/23"/>
+            <StringItem index="183" value="03/07/23"/>
+            <StringItem index="184" value="04/07/23"/>
+            <StringItem index="185" value="05/07/23"/>
+            <StringItem index="186" value="06/07/23"/>
+            <StringItem index="187" value="07/07/23"/>
+            <StringItem index="188" value="08/07/23"/>
+            <StringItem index="189" value="09/07/23"/>
+            <StringItem index="190" value="10/07/23"/>
+            <StringItem index="191" value="11/07/23"/>
+            <StringItem index="192" value="12/07/23"/>
+            <StringItem index="193" value="13/07/23"/>
+            <StringItem index="194" value="14/07/23"/>
+            <StringItem index="195" value="15/07/23"/>
+            <StringItem index="196" value="16/07/23"/>
+            <StringItem index="197" value="17/07/23"/>
+            <StringItem index="198" value="18/07/23"/>
+            <StringItem index="199" value="19/07/23"/>
+            <StringItem index="200" value="20/07/23"/>
+            <StringItem index="201" value="21/07/23"/>
+            <StringItem index="202" value="22/07/23"/>
+            <StringItem index="203" value="23/07/23"/>
+            <StringItem index="204" value="24/07/23"/>
+            <StringItem index="205" value="25/07/23"/>
+            <StringItem index="206" value="26/07/23"/>
+            <StringItem index="207" value="27/07/23"/>
+            <StringItem index="208" value="28/07/23"/>
+            <StringItem index="209" value="29/07/23"/>
+            <StringItem index="210" value="30/07/23"/>
+            <StringItem index="211" value="31/07/23"/>
+            <StringItem index="212" value="01/08/23"/>
+            <StringItem index="213" value="02/08/23"/>
+            <StringItem index="214" value="03/08/23"/>
+            <StringItem index="215" value="04/08/23"/>
+            <StringItem index="216" value="05/08/23"/>
+            <StringItem index="217" value="06/08/23"/>
+            <StringItem index="218" value="07/08/23"/>
+            <StringItem index="219" value="08/08/23"/>
+            <StringItem index="220" value="09/08/23"/>
+            <StringItem index="221" value="10/08/23"/>
+            <StringItem index="222" value="11/08/23"/>
+            <StringItem index="223" value="12/08/23"/>
+            <StringItem index="224" value="13/08/23"/>
+            <StringItem index="225" value="14/08/23"/>
+            <StringItem index="226" value="15/08/23"/>
+            <StringItem index="227" value="16/08/23"/>
+            <StringItem index="228" value="17/08/23"/>
+            <StringItem index="229" value="18/08/23"/>
+            <StringItem index="230" value="19/08/23"/>
+            <StringItem index="231" value="20/08/23"/>
+            <StringItem index="232" value="21/08/23"/>
+            <StringItem index="233" value="22/08/23"/>
+            <StringItem index="234" value="23/08/23"/>
+            <StringItem index="235" value="24/08/23"/>
+            <StringItem index="236" value="25/08/23"/>
+            <StringItem index="237" value="26/08/23"/>
+            <StringItem index="238" value="27/08/23"/>
+            <StringItem index="239" value="28/08/23"/>
+            <StringItem index="240" value="29/08/23"/>
+            <StringItem index="241" value="30/08/23"/>
+            <StringItem index="242" value="31/08/23"/>
+            <StringItem index="243" value="01/09/23"/>
+            <StringItem index="244" value="02/09/23"/>
+            <StringItem index="245" value="03/09/23"/>
+            <StringItem index="246" value="04/09/23"/>
+            <StringItem index="247" value="05/09/23"/>
+            <StringItem index="248" value="06/09/23"/>
+            <StringItem index="249" value="07/09/23"/>
+            <StringItem index="250" value="08/09/23"/>
+            <StringItem index="251" value="09/09/23"/>
+            <StringItem index="252" value="10/09/23"/>
+            <StringItem index="253" value="11/09/23"/>
+            <StringItem index="254" value="12/09/23"/>
+            <StringItem index="255" value="13/09/23"/>
+            <StringItem index="256" value="14/09/23"/>
+            <StringItem index="257" value="15/09/23"/>
+            <StringItem index="258" value="16/09/23"/>
+            <StringItem index="259" value="17/09/23"/>
+            <StringItem index="260" value="18/09/23"/>
+            <StringItem index="261" value="19/09/23"/>
+            <StringItem index="262" value="20/09/23"/>
+            <StringItem index="263" value="21/09/23"/>
+            <StringItem index="264" value="22/09/23"/>
+            <StringItem index="265" value="23/09/23"/>
+            <StringItem index="266" value="24/09/23"/>
+            <StringItem index="267" value="25/09/23"/>
+            <StringItem index="268" value="26/09/23"/>
+            <StringItem index="269" value="27/09/23"/>
+            <StringItem index="270" value="28/09/23"/>
+            <StringItem index="271" value="29/09/23"/>
+            <StringItem index="272" value="30/09/23"/>
+            <StringItem index="273" value="01/10/23"/>
+            <StringItem index="274" value="02/10/23"/>
+            <StringItem index="275" value="03/10/23"/>
+            <StringItem index="276" value="04/10/23"/>
+            <StringItem index="277" value="05/10/23"/>
+            <StringItem index="278" value="06/10/23"/>
+            <StringItem index="279" value="07/10/23"/>
+            <StringItem index="280" value="08/10/23"/>
+            <StringItem index="281" value="09/10/23"/>
+            <StringItem index="282" value="10/10/23"/>
+            <StringItem index="283" value="11/10/23"/>
+            <StringItem index="284" value="12/10/23"/>
+            <StringItem index="285" value="13/10/23"/>
+            <StringItem index="286" value="14/10/23"/>
+            <StringItem index="287" value="15/10/23"/>
+            <StringItem index="288" value="16/10/23"/>
+            <StringItem index="289" value="17/10/23"/>
+            <StringItem index="290" value="18/10/23"/>
+            <StringItem index="291" value="19/10/23"/>
+            <StringItem index="292" value="20/10/23"/>
+            <StringItem index="293" value="21/10/23"/>
+            <StringItem index="294" value="22/10/23"/>
+            <StringItem index="295" value="23/10/23"/>
+            <StringItem index="296" value="24/10/23"/>
+            <StringItem index="297" value="25/10/23"/>
+            <StringItem index="298" value="26/10/23"/>
+            <StringItem index="299" value="27/10/23"/>
+            <StringItem index="300" value="28/10/23"/>
+            <StringItem index="301" value="29/10/23"/>
+            <StringItem index="302" value="30/10/23"/>
+            <StringItem index="303" value="31/10/23"/>
+            <StringItem index="304" value="01/11/23"/>
+            <StringItem index="305" value="02/11/23"/>
+            <StringItem index="306" value="03/11/23"/>
+            <StringItem index="307" value="04/11/23"/>
+            <StringItem index="308" value="05/11/23"/>
+            <StringItem index="309" value="06/11/23"/>
+            <StringItem index="310" value="07/11/23"/>
+            <StringItem index="311" value="08/11/23"/>
+            <StringItem index="312" value="09/11/23"/>
+            <StringItem index="313" value="10/11/23"/>
+            <StringItem index="314" value="11/11/23"/>
+            <StringItem index="315" value="12/11/23"/>
+            <StringItem index="316" value="13/11/23"/>
+            <StringItem index="317" value="14/11/23"/>
+            <StringItem index="318" value="15/11/23"/>
+            <StringItem index="319" value="16/11/23"/>
+            <StringItem index="320" value="17/11/23"/>
+            <StringItem index="321" value="18/11/23"/>
+            <StringItem index="322" value="19/11/23"/>
+            <StringItem index="323" value="20/11/23"/>
+            <StringItem index="324" value="21/11/23"/>
+            <StringItem index="325" value="22/11/23"/>
+            <StringItem index="326" value="23/11/23"/>
+            <StringItem index="327" value="24/11/23"/>
+            <StringItem index="328" value="25/11/23"/>
+            <StringItem index="329" value="26/11/23"/>
+            <StringItem index="330" value="27/11/23"/>
+            <StringItem index="331" value="28/11/23"/>
+            <StringItem index="332" value="29/11/23"/>
+            <StringItem index="333" value="30/11/23"/>
+            <StringItem index="334" value="01/12/23"/>
+            <StringItem index="335" value="02/12/23"/>
+            <StringItem index="336" value="03/12/23"/>
+            <StringItem index="337" value="04/12/23"/>
+            <StringItem index="338" value="05/12/23"/>
+            <StringItem index="339" value="06/12/23"/>
+            <StringItem index="340" value="07/12/23"/>
+            <StringItem index="341" value="08/12/23"/>
+            <StringItem index="342" value="09/12/23"/>
+            <StringItem index="343" value="10/12/23"/>
+            <StringItem index="344" value="11/12/23"/>
+            <StringItem index="345" value="12/12/23"/>
+            <StringItem index="346" value="13/12/23"/>
+            <StringItem index="347" value="14/12/23"/>
+            <StringItem index="348" value="15/12/23"/>
+            <StringItem index="349" value="16/12/23"/>
+            <StringItem index="350" value="17/12/23"/>
+            <StringItem index="351" value="18/12/23"/>
+            <StringItem index="352" value="19/12/23"/>
+            <StringItem index="353" value="20/12/23"/>
+            <StringItem index="354" value="21/12/23"/>
+            <StringItem index="355" value="22/12/23"/>
+            <StringItem index="356" value="23/12/23"/>
+            <StringItem index="357" value="24/12/23"/>
+            <StringItem index="358" value="25/12/23"/>
+            <StringItem index="359" value="26/12/23"/>
+            <StringItem index="360" value="27/12/23"/>
+            <StringItem index="361" value="28/12/23"/>
+            <StringItem index="362" value="29/12/23"/>
+            <StringItem index="363" value="30/12/23"/>
+            <StringItem index="364" value="31/12/23"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="noPelanggan">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="noPelangganActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonSimpan">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="cc" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Simpan"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSimpanActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonLogout">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Logout"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonLogoutActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
